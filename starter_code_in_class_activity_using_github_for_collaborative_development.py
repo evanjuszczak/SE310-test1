@@ -34,9 +34,7 @@ calculator()
 
 
 #### TASK 4 (Member #2)- pull the gitHub repo in your local computer  and implement the SUBTRACTION function()
-def subtraction(number1, number2):
-  print("We are subtraction " + str(number1) + " and " + str(number2))
-  return number1 - number2
+
 #### TASK 5 (Member #2)- Add the implemented the SUBTRACTION function() to your gitHub repo in a new branch called feature/subtract
 
 #### TASK 6 (Member #3) - pull the gitHub repo in your local computer and implement the Multiplication function()
@@ -55,5 +53,7 @@ def subtraction(number1, number2):
 
 
 #### TASK 10 (Member #2)- pull the gitHub repo in your local computer  and implement the SQRT function()
-
+def SQRT(number1, number2):
+  print("We are square rooting " + str(number1) + " and " + str(number2))
+  return number1 ** number2
 #### TASK 11 (Member #2)- Add the implemented the SQRT function() to your gitHub repo in the main branch
