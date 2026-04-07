@@ -31,7 +31,9 @@ calculator()
 
 
 #### TASK 4 (Member #2)- pull the gitHub repo in your local computer  and implement the SUBTRACTION function()
-
+def subtraction(number1, number2):
+  print("We are subtraction " + str(number1) + " and " + str(number2))
+  return number1 - number2
 #### TASK 5 (Member #2)- Add the implemented the SUBTRACTION function() to your gitHub repo in a new branch called feature/subtract
 
 #### TASK 6 (Member #3) - pull the gitHub repo in your local computer and implement the Multiplication function()
