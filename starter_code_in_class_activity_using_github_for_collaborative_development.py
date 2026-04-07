@@ -25,6 +25,12 @@ def calculator():
 
   choice = int(input("Enter your choice: "))
 
+if choice == 3
+num1 = int(input("Enter number one: "))
+num2 = int(input("Enter number two: "))
+result = multiplication(num1, num2)
+print(result)
+
 
 
 calculator()
