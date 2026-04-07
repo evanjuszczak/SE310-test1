@@ -24,6 +24,12 @@ def calculator():
   print("7. Exponent")
 
   choice = int(input("Enter your choice: "))
+  
+  if choice == 4:
+    num1 = int(input("Enter First number: "))
+    num2 = int(input("Enter Second number: "))
+    result = division(num1, num2)
+    print(result)
 
 
 
