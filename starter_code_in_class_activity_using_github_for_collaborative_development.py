@@ -63,5 +63,7 @@ def IntegerDivision (number1, number2):;
 
 
 #### TASK 10 (Member #2)- pull the gitHub repo in your local computer  and implement the SQRT function()
-
+def SQRT(number1, number2):
+  print("We are square rooting " + str(number1) + " and " + str(number2))
+  return number1 ** number2
 #### TASK 11 (Member #2)- Add the implemented the SQRT function() to your gitHub repo in the main branch
