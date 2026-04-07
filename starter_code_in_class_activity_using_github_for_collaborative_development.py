@@ -54,6 +54,10 @@ calculator()
 
 #### TASK 9 (Member #1)- Add the implemented the IntegerDivision function() to your gitHub repo in the existing branch feature/div
 
+def IntegerDivision (number1, number2):;
+  print ("We are Integer Dividing " + str(number1) + " and " + str(number2))
+  return number1 // number2
+
 
 #### TASK 10 (Member #2)- pull the gitHub repo in your local computer  and implement the SQRT function()
 
