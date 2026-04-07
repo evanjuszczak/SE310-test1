@@ -32,6 +32,10 @@ def calculator():
 
 calculator()
 
+def division(number1, number2):
+  print("We are dividing " + str(number1) + " and " + str(number2))
+  return number1 / number2
+
 
 #### TASK 4 (Member #2)- pull the gitHub repo in your local computer  and implement the SUBTRACTION function()
 def subtraction(number1, number2):
