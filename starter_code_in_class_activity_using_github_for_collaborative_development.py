@@ -5,7 +5,7 @@ def addition(number1, number2):
   print("We are adding " + str(number1) + " and " + str(number2))
   return number1 + number2
 
-def multiplication (number1, number2):;
+def multiplication (number1, number2):
   print ("We are multiplying " + str(number1) + " and " + str(number2))
   return number1 * number2
 
@@ -34,7 +34,7 @@ def subtraction(number1, number2):
   print("We are subtraction " + str(number1) + " and " + str(number2))
   return number1 - number2
 
-def IntegerDivision (number1, number2):;
+def IntegerDivision (number1, number2):
   print ("We are Integer Dividing " + str(number1) + " and " + str(number2))
   return number1 // number2
 
