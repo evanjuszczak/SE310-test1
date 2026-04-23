@@ -43,29 +43,27 @@ def SQRTredo(number1, number2):
   print("We are square rooting " + str(number1) + " and " + str(number2))
   return number1 ** number2
 
-class TestMathEdgeCases(unittest.TestCase):
+class TestMathOperations(unittest.TestCase):
 
-    # 1. Division by Zero
-    def test_divide_by_zero(self):
-        """Checks that dividing by zero raises a ZeroDivisionError."""
+    def test_add_valid_numbers(self):
+        self.assertEqual(add(10, 5), 15)
+        self.assertEqual(add(-1, -1), -2)
+
+    def test_division_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
             divide(10, 0)
 
-    # 2. Float Precision
-    def test_float_precision(self):
-        """
-        Checks for precision issues (e.g., 0.1 + 0.2 != 0.3).
-        Use assertAlmostEqual to handle tiny rounding differences.
-        """
-        result = 0.1 + 0.2
-        # Standard assertEqual would fail here: 0.30000000000000004 != 0.3
-        self.assertAlmostEqual(result, 0.3, places=7)
+    def test_invalid_types(self):
+        with self.assertRaises(TypeError):
+            add(10, "5")
 
-    # 3. Square Root of Negative Numbers
-    def test_sqrt_negative_number(self):
-        """Checks that sqrt of a negative number raises a ValueError."""
-        with self.assertRaises(ValueError):
-            square_root(-1)
+    def test_missing_input_arguments(self):
+        with self.assertRaises(TypeError):
+            add(10)
+
+    def test_none_input(self):
+        with self.assertRaises(TypeError):
+            add(None, 5)
 
 if __name__ == '__main__':
     unittest.main()
